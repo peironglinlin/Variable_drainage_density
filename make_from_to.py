@@ -14,10 +14,8 @@ def convert_to_int(df):
     return df
 
 if __name__ == '__main__':
-#     files = sorted(glob.glob('DATA_PUBLICATION/river_network_variable_Dd/*.shp'))
     files = sorted(glob.glob('DATA_PUBLICATION/river_network_constant_Dd/*.shp'))
     nf = len(files)
-    # import pdb;pdb.set_trace()
 
     for file in files:
         #read line shapefile
